@@ -515,7 +515,7 @@ requires jQuery 1.7+
 			appendTo.append(wrapped_list);
 			_setSelected(self, list);
 
-			list.on('mousedown', 'li', function(e) {
+			list.on('click', 'li', function(e) {
 
 				// hack: temporarily disable the focus handler
 				// to deal with the fact that IE fires 'focus'
